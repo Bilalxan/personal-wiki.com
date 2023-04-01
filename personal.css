@@ -1,0 +1,106 @@
+/* BODY */
+body {
+display: block;
+}
+
+/* Navbar styles */
+
+.navbar {
+  font-family: "Montserrat," serif;
+  background-color: #1B7DB3;
+  color: white;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  
+}
+
+ul {
+    font-size: x-large;
+}
+
+h1 {
+  padding-left: 30px;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+li {
+  padding-right: 30px;
+}
+
+/* MAIN */
+
+
+.main {
+  display: flex;
+  padding-top: 20px;
+width: 20cm;
+}
+
+.about {
+  font-family: sans-serif;
+  font-size: 300%;
+}
+
+.photo {
+  position: absolute;
+  width: 400px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "Montserrat";
+}
+
+.fontawesome {
+  margin-bottom: 5%;
+  text-align: center;
+  padding-top: 3%;
+}
+
+h4 {
+  padding-bottom: 1%;
+  font-family: monospace;
+}
+
+.fa-brands {
+  padding-left: 2%;
+}
+
+.displays {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* PUBLICATIONS */
+
+.title {
+  width: 400px;
+  height: 60px;
+  margin-top: 1%;
+  position: relative;
+  background-color: rgb(184, 70, 237);
+  animation-name: example;
+  animation-duration: 9s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes example {
+  0%   {background-color: #e1eefe; left:300px;}
+  25%  {background-color:#b9d4db; left:500px;}
+  50%  {background-color:#10caf0; left:300px;}
+  75%  {background-color:#aacd2f; left:500px;}
+  100% {background-color:#04a96d; left:450px;}
+}
+
+.title {
+  padding-top: 5px;
+  border-radius: 25px;
+}
